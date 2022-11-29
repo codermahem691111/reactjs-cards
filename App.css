@@ -1,0 +1,115 @@
+
+
+
+:root {
+
+--glass:  rgba(255,255,255, 0.54);
+--black : #242d49;
+
+
+}
+
+.App {
+  text-align: center;
+
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.captions {
+    
+  margin-bottom: 100px;
+  
+
+
+}
+
+
+.btn {
+
+  margin-top: 100px;
+   margin-bottom: 10px;
+
+}
+
+.hd {
+
+
+
+
+  background-color: #1d4ed8;
+  background-size: 100%;
+  font-weight: bold;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+
+
+
+
+}
+
+#crs1 {
+
+background-image: url(./images/unplash1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+
+
+}
+
+#img1 {
+
+height: 100vh;
+width: 100vh;
+
+
+
+
+
+}
